@@ -7,89 +7,106 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!--fichier CSS3-->
   <link rel="stylesheet" href="CV.css">
+  <!--Lien pour icone-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <title>CV.2</title>
 </head>
 <body>
   <!--bloc Profil-->
-  <div class="container-fluid">
+  <div class="container-fluid text-center ">
     <h1>A Propos</h1>
     <div>
       <p>Je vous souhaite la Bienvenue dans mon parcours</p>
+      <p></p>
       <h2>Profil</h2>
       <p>Apprenti Développeur</p>
-      <img  class="img-fluid" src="img_avatar1.png" alt="img_avatar1">
+      <img class="img-fluid" src="img_avatar1.png" alt="img_avatar1">
     </div>
   </div>
 
   <!-- Bloc Formations-->
   <div class="container-fluid">
-    <h1>Competences</h1>
-    <div class="container">
-      <p>1.Langages</p>
-      <!--Badge et progressbar des langages-->
+    <div class="container text-center Competences">
+      <h1>Competences</h1>
+    </div>
+    <div class="container text-center Langages">
+      <h2>1.Langages</h2>
+    </div>
+    <!--Badge et progressbar des langages-->
+      <div class="container MenuLangages">
       <ul>
-        <li i class="fab fa-HTML5 fa-2x"></li><span class="badge badge-dark">HTLM5</span>
+        <span class="badge badge-dark">HTLM5</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
         </div>
         <!--fin progressbar html5-->
-        <li i class="fab fa-CSS3 fa-2x"></li><span class="badge badge-dark">CSS 3</span>
+        <span class="badge badge-dark">CSS 3</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
         </div>
         <!--fin progressbar CSS3-->
-        <li i class="fab fa-Javascript fa-2x"></li><span class="badge badge-dark">Javascript</span>
+        <span class="badge badge-dark">Javascript</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
         <!--fin progressbar JavaScript-->
-        <li i class="fab fa-PHP fa-2x"></li><span class="badge badge-dark">PHP</span>
+        <span class="badge badge-dark">PHP</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
-        <!-- fin progressbar PHP-->
-        <li i class="fab fa-SQL fa-2x"></li><span class="badge badge-dark">SQL</span>
+        <!--fin progressbar PHP-->
+        <span class="badge badge-dark">SQL</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
-        <!-- fin progressbar SQL-->
+        <!--fin progressbar SQL-->
       </ul>
       <!--Badge et progressbar des langages terminé-->
+    </div>
 
-      <p>2.Framwork</p>
+    <div class="container text-center Framework">
+      <h2>2.Framwork</h2>
+    </div>
+      <div class="container MenuFramework">
       <ul><!--Badge et progressbar des framworks-->
-        <li i class="fab fa-Jquery fa-2x"><span class="badge badge-dark">Jquery</span></li>
+        <span class="badge badge-dark">Jquery</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
         <!--fin progressbar Jquery-->
-        <li i class="fab fa-Bootstrap fa-2x"><span class="badge badge-dark">Bootstrap</span></li>
+        <span class="badge badge-dark">Bootstrap</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
         <!--fin progressbar Bootstrap-->
-        <li i class="fab fa-AngularJS fa-2x"><span class="badge badge-dark">Angular JS</span></li>
+        <span class="badge badge-dark">Angular JS</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
-      </ul>  <!--fin progressbar AngularJS-->
-      <p>3.Outils</p>
+          </ul>  <!--fin progressbar AngularJS-->
+      </div>
+    <div class="container text-center Outils">
+      <h2>3.Outils</h2>
+    </div>
+      <div class="container MenuOutils">
       <ul>
-        <li i class="fab fa-Github fa-2x"><span class="badge badge-dark">Github</span></li>
+        <span class="badge badge-dark">Github</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
         <!--fin progressbar Github-->
-        <li i class="fab fa-Atom fa-2x"><span class="badge badge-dark">Atom</span></li>
+        <span class="badge badge-dark">Atom</span>
         <div class="progress">
           <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
         </div>
         <!--fin progressbar Atom-->
-      </ul>
-      <!-- Fin Badge et progressbar des framworks-->
+      </ul><!-- Fin Badge et progressbar des framworks-->
+    </div>
+  </div>
+
+  <div class="container Formations text-center">
       <h1> Formations</h1>
-      <div class="container">
-        <ul>
+       <ul>
           <li>Titre pro</li>
           <li>Bts</li>
           <li>Bac pro</li>
@@ -98,8 +115,10 @@
       </div>
 
       <!--Bloc Loisirs-->
-      <div class="container-fluid">
+      <div class="container-fluid text-center Loisirs">
+<div class="container ">
         <h1>Loisirs</h1>
+      </div>
         <ul>
           <li>Cinéma</li>
           <li>Développement Personnel</li>
@@ -109,16 +128,16 @@
       </div>
 
       <!--Bloc Contact-->
-      <div class="container-fluid">
+      <div class="container-fluid text-center Contact">
         <h1>Contact<h1>
-          <i class="fas fa-envelope fa-7x"></i>Email: <a id="mail" href="mailto:victoriacapo3@gmail.com &body=Bonjour,">Contacter</a><br>
-          <i class="fab fa-github fa-7x"></i>Github: <a id="Github" href="https://gist.github.com/Victoriacapo">Accéder</a><br>
-          <i class="fas fa-city fa-5x"></i>Ville:<a> 76600 Le HAVRE</a>
+          <i class="fas fa-envelope fa-2x"></i>Email: <a id="mail" href="mailto:victoriacapo3@gmail.com &body=Bonjour,">Contacter</a><br>
+          <i class="fab fa-github fa-2x"></i>Github: <a id="Github" href="https://gist.github.com/Victoriacapo">Accéder</a><br>
+          <i class="fas fa-city fa-2x"></i>Ville:<a> 76600 Le HAVRE</a>
         </div>
 
 
 
-      <!-- Optional JavaScript -->
+        <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
