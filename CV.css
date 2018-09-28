@@ -1,0 +1,47 @@
+body{
+  background-image: url('team-3373638_1920.jpg');
+  background-size: cover;
+  color: black;
+}
+h1{
+  color: black;
+  text-decoration: underline;
+  background-color: #0e1c3a;
+  border: 10px black double;
+}
+h2{
+color:black;
+background-color: #05966D;
+border: 1px black solid;
+}
+.Profil{
+  color:black;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #05966D;
+  padding-bottom: 10px;
+}
+img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Experiences{
+  color:black;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #05966D;
+}
+.Formations{
+color:black;
+font-size: 30px;
+text-shadow: 1px 1px 2px #05966D;
+}
+
+.Loisirs{
+  color:black;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #05966D;
+}
+.Contact{
+  color:black;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #05966D;
+}
